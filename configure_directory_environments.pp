@@ -15,11 +15,11 @@ Ini_setting {
 ini_setting { 'Configure environmentpath':
   section => 'main',
   setting => 'environmentpath',
-  value   => '$confdir/environments',
+  value   => '$codedir/environments',
 }
 
 ini_setting { 'Configure basemodulepath':
   section => 'main',
   setting => 'basemodulepath',
-  value   => '$confdir/modules:/opt/puppet/share/puppet/modules',
+  value   => '$codedir/modules:/opt/puppet/share/puppet/modules',
 }
